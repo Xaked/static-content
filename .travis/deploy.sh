@@ -9,7 +9,7 @@ ssh deploy@$IP -p $PORT <<EOF
   rm -rf $TEMP_DEPLOY_DIR
   mkdir $TEMP_DEPLOY_DIR
   cd $TEMP_DEPLOY_DIR
-  git clone -b production https://github.com/Xaked/static-content.git .
+  git clone -b live https://github.com/Xaked/static-content.git .
   rm -rf $TEMP_DEPLOY_DIR/.git
   rm -rf $TEMP_DEPLOY_DIR/.travis
   rsync -avu --delete "$TEMP_DEPLOY_DIR" "$DEPLOY_DIR"
