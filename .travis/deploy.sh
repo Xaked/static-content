@@ -12,5 +12,8 @@ ssh deploy@$IP -p $PORT <<EOF
   git clone -b live https://github.com/Xaked/static-content.git .
   rm -rf $TEMP_DEPLOY_DIR/.git
   rm -rf $TEMP_DEPLOY_DIR/.travis
-  rsync -avu --delete "$TEMP_DEPLOY_DIR" "$DEPLOY_DIR"
+  rm -rf $TEMP_DEPLOY_DIR/.travis.yml
+  rm -rf $TEMP_DEPLOY_DIR/.gitignore
+  chmod -R u=rwX,g=rwX,o=rX *
+  rsync -avu --delete "$TEMP_DEPLOY_DIR/" "$DEPLOY_DIR/"
 EOF
