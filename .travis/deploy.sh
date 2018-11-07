@@ -15,5 +15,5 @@ ssh deploy@$IP -p $PORT <<EOF
   rm -rf $TEMP_DEPLOY_DIR/.travis.yml
   rm -rf $TEMP_DEPLOY_DIR/.gitignore
   chmod -R u=rwX,g=rwX,o=rX *
-  rsync -avu --delete "$TEMP_DEPLOY_DIR/" "$DEPLOY_DIR/"
+  rsync -au --delete "$TEMP_DEPLOY_DIR/" "$DEPLOY_DIR/"
 EOF
