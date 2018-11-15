@@ -2,6 +2,8 @@
 
 [![GitHub license](https://img.shields.io/github/license/xaked/static-content.svg)](https://raw.githubusercontent.com/xaked/static-content/master/LICENSE)
 [![Build Status](https://travis-ci.com/xaked/static-content.svg?branch=live)](https://travis-ci.com/xaked/static-content)
+[![Project web site](https://img.shields.io/badge/Project%20site-xaked.com-blue.svg?longCache=true&style=flat-square)](https://kpois.od.ua)
+[![Developer web site](https://img.shields.io/badge/Developer%20site-xaked.com-blue.svg?longCache=true&style=flat-square)](https://xaked.com/)
 
 ## Contributing
 
