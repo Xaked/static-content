@@ -1,7 +1,7 @@
 # Static content
 
-[![GitHub license](https://img.shields.io/github/license/Xaked/static-content.svg)](https://raw.githubusercontent.com/Xaked/static-content/master/LICENSE)
-[![Build Status](https://travis-ci.com/Xaked/static-content.svg?branch=live)](https://travis-ci.com/Xaked/static-content)
+[![GitHub license](https://img.shields.io/github/license/xaked/static-content.svg)](https://raw.githubusercontent.com/xaked/static-content/master/LICENSE)
+[![Build Status](https://travis-ci.com/xaked/static-content.svg?branch=live)](https://travis-ci.com/xaked/static-content)
 
 ## Contributing
 
@@ -13,6 +13,6 @@
 
 ## Author
 
-Copyright © **[iSm1le](https://github.com/iSm1le/)**, Released under the [Apache 2.0](https://github.com/Xaked/static-content/blob/master/LICENSE) license.
+Copyright © **[iSm1le](https://github.com/iSm1le/)**, Released under the [Apache 2.0](https://github.com/xaked/static-content/blob/master/LICENSE) license.
 
 Authored and maintained by [iSm1le](https://github.com/iSm1le)
